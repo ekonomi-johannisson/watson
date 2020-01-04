@@ -1,0 +1,124 @@
+﻿<style>
+    .container {
+        position: relative;
+        font-family: monospace;
+        font-size: 10px;
+        border: solid 1px gray;
+        width: 300px;
+        height: 200px;
+    }
+
+    .outline {
+        border: solid 1px red;
+        outline: solid 1px red;
+    }
+
+    .symbol {
+        position: absolute;
+        font-size: 12px;
+        top: 3px;
+        left: 3px;
+    }
+
+    .min {
+        position: absolute;
+        top: 20px;
+        left: 3px;
+        white-space:pre;
+    }
+
+    .max {
+        position: absolute;
+        top: 35px;
+        left: 3px;
+        white-space:pre;
+    }
+
+    .closing {
+        position: absolute;
+        top: 50px;
+        left: 3px;
+        white-space:pre;
+    }
+    .value {
+        position: absolute;
+        top: 65px;
+        left: 3px;
+        color:blue;
+        font-weight: bold;
+        white-space:pre;
+    }
+
+    .description {
+        position: absolute;
+        bottom: 3px;
+        left: 3px;
+    }
+
+    img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+</style>
+<button ng-click="$ctrl.fill = !$ctrl.fill">Fill</button>
+<button ng-click="$ctrl.owned = !$ctrl.owned">Owned</button>
+<button ng-click="$ctrl.closing = !$ctrl.closing">Closing</button>
+<button ng-click="$ctrl.fishnet = !$ctrl.fishnet">Fishnet</button>
+<button ng-click="$ctrl.bollinger_bands = !$ctrl.bollinger_bands">Bollinger Bands</button>
+<button ng-click="$ctrl.transactions = !$ctrl.transactions">Transactions</button>
+<button ng-click="$ctrl.showICB = !$ctrl.showICB">ISB</button>
+<table ng-if="$ctrl.showICB">
+    <tr>
+        <td>
+            <input type="checkbox" ng-click="$ctrl.toggleAll()" checked />All<br />
+            <input type="checkbox" ng-model="$ctrl.icb[1300]" />Chemicals<br />
+            <input type="checkbox" ng-model="$ctrl.icb[1700]" />Basic Resources<br />
+            <input type="checkbox" ng-model="$ctrl.icb[2300]" />Construction & Materials<br />
+            <input type="checkbox" ng-model="$ctrl.icb[2700]" />Industrial Goods & Services<br />
+        </td>
+        <td>
+            <input type="checkbox" ng-model="$ctrl.icb[3300]" />Automobiles & Parts<br />
+            <input type="checkbox" ng-model="$ctrl.icb[3500]" />Food & Beverage<br />
+            <input type="checkbox" ng-model="$ctrl.icb[3700]" />Personal & Household Goods<br />
+            <input type="checkbox" ng-model="$ctrl.icb[4500]" />Health Care<br />
+            <input type="checkbox" ng-model="$ctrl.icb[5300]" />Retail<br />
+        </td>
+        <td>
+            <input type="checkbox" ng-model="$ctrl.icb[5500]" />Media<br />
+            <input type="checkbox" ng-model="$ctrl.icb[5700]" />Travel & Leisure<br />
+            <input type="checkbox" ng-model="$ctrl.icb[6500]" />Telecommunications<br />
+            <input type="checkbox" ng-model="$ctrl.icb[7500]" />Utilities<br />
+            <input type="checkbox" ng-model="$ctrl.icb[8300]" />Banks<br />
+        </td>
+        <td valign="top">
+            <input type="checkbox" ng-model="$ctrl.icb[8500]" />Insurance<br />
+            <input type="checkbox" ng-model="$ctrl.icb[8600]" />Real Estate<br />
+            <input type="checkbox" ng-model="$ctrl.icb[8700]" />Financial Services<br />
+            <input type="checkbox" ng-model="$ctrl.icb[8900]" />Investment Instruments<br />
+            <input type="checkbox" ng-model="$ctrl.icb[9500]" />Technology ({{$ctrl.count('9500')}})
+        </td>
+    </tr>
+</table>
+<br />
+<br />
+<div ng-repeat="row in $ctrl.data" style="float: left; padding: 5px;" ng-click="row.selected = !row.selected" ng-if="$ctrl.icb[row.ICB]">
+    <div class="container" ng-class="{outline: row.selected}">
+        <img ng-if="$ctrl.fill" src="{{ '/data/img/' + row.Symbol + '_fill.png' }}" />
+
+        <img src="{{ '/data/img/' + row.Symbol + '.png' }}" />
+
+        <img ng-if="$ctrl.owned" src="{{ '/data/img/' + row.Symbol + '_owned.png' }}" />
+        <img ng-if="$ctrl.transactions" src="{{ '/data/img/' + row.Symbol + '_transactions.png' }}" />
+        <img ng-if="$ctrl.fishnet" src="{{ '/data/img/' + row.Symbol + '_fishnet.png' }}" />
+        <img ng-if="$ctrl.closing" src="{{ '/data/img/' + row.Symbol + '_closing.png' }}" />
+        <img ng-if="$ctrl.bollinger_bands" src="{{ '/data/img/' + row.Symbol + '_bollinger_bands.png' }}" />
+
+        <span class="symbol">{{row.Symbol.toUpperCase()}}</span>
+        <span class="min">Min:     {{row.Min.toFixed(2).padStart(7)}} kr</span>
+        <span class="max">Max:     {{row.Max.toFixed(2).padStart(7)}} kr</span>
+        <span class="closing">Closing: {{row.Closing.toFixed(2).padStart(7)}} kr</span>
+        <span ng-if="row.Quantity" class="value">Value:   {{(row.Quantity * row.Closing).toFixed(2).padStart(7)}} kr</span>
+        <span class="description">{{row.Description}}</span>
+    </div>
+</div>
