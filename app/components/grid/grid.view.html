@@ -104,15 +104,15 @@
 <br />
 <div ng-repeat="row in $ctrl.data" style="float: left; padding: 5px;" ng-click="row.selected = !row.selected" ng-if="$ctrl.icb[row.ICB]">
     <div class="container" ng-class="{outline: row.selected}">
-        <img ng-if="$ctrl.fill" src="{{ '/data/img/' + row.Symbol + '_fill.png' }}" />
+        <img ng-if="row.Quantity > 0 && $ctrl.fill" src="{{ 'data/img/' + row.Symbol + '_fill.png' }}" />
 
-        <img src="{{ '/data/img/' + row.Symbol + '.png' }}" />
+        <img src="{{ 'data/img/' + row.Symbol + '.png' }}" />
 
-        <img ng-if="$ctrl.owned" src="{{ '/data/img/' + row.Symbol + '_owned.png' }}" />
-        <img ng-if="$ctrl.transactions" src="{{ '/data/img/' + row.Symbol + '_transactions.png' }}" />
-        <img ng-if="$ctrl.fishnet" src="{{ '/data/img/' + row.Symbol + '_fishnet.png' }}" />
-        <img ng-if="$ctrl.closing" src="{{ '/data/img/' + row.Symbol + '_closing.png' }}" />
-        <img ng-if="$ctrl.bollinger_bands" src="{{ '/data/img/' + row.Symbol + '_bollinger_bands.png' }}" />
+        <img ng-if="row.Quantity > 0 && $ctrl.owned" src="{{ 'data/img/' + row.Symbol + '_owned.png' }}" />
+        <img ng-if="row.Quantity > 0 && $ctrl.transactions" src="{{ 'data/img/' + row.Symbol + '_transactions.png' }}" />
+        <img ng-if="$ctrl.fishnet" src="{{ 'data/img/' + row.Symbol + '_fishnet.png' }}" />
+        <img ng-if="$ctrl.closing" src="{{ 'data/img/' + row.Symbol + '_closing.png' }}" />
+        <img ng-if="$ctrl.bollinger_bands" src="{{ 'data/img/' + row.Symbol + '_bollinger_bands.png' }}" />
 
         <span class="symbol">{{row.Symbol.toUpperCase()}}</span>
         <span class="min">Min:     {{row.Min.toFixed(2).padStart(7)}} kr</span>
