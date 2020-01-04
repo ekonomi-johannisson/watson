@@ -1,0 +1,772 @@
+[
+  {
+    "Symbol": "abso",
+    "Type": "LONG",
+    "Min": 234.0,
+    "Max": 580.0,
+    "Closing": 420.0,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "addt-b",
+    "Type": "LONG",
+    "Min": 162.6,
+    "Max": 305.0,
+    "Closing": 303.0,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "addv-b",
+    "Type": "LONG",
+    "Min": 0.469,
+    "Max": 0.858,
+    "Closing": 0.74,
+    "Description": "Health Care",
+    "ICB": "4500",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "alif-b",
+    "Type": "LONG",
+    "Min": 193.224,
+    "Max": 301.0,
+    "Closing": 301.0,
+    "Description": "Health Care",
+    "ICB": "4500",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "allg-b",
+    "Type": "LONG",
+    "Min": 5.28,
+    "Max": 11.85,
+    "Closing": 11.1,
+    "Description": "Technology",
+    "ICB": "9500",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "alm",
+    "Type": "LONG",
+    "Min": 159.0,
+    "Max": 310.0,
+    "Closing": 310.0,
+    "Description": "Real Estate",
+    "ICB": "8600",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "amast",
+    "Type": "LONG",
+    "Min": 4.26,
+    "Max": 8.78,
+    "Closing": 8.6,
+    "Description": "Real Estate",
+    "ICB": "8600",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "anod-b",
+    "Type": "LONG",
+    "Min": 105.0,
+    "Max": 187.0,
+    "Closing": 187.0,
+    "Description": "Technology",
+    "ICB": "9500",
+    "Quantity": 6
+  },
+  {
+    "Symbol": "aq",
+    "Type": "LONG",
+    "Min": 145.6,
+    "Max": 234.0,
+    "Closing": 230.5,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Quantity": 2
+  },
+  {
+    "Symbol": "arcoma",
+    "Type": "LONG",
+    "Min": 13.4,
+    "Max": 25.0,
+    "Closing": 21.0,
+    "Description": "Health Care",
+    "ICB": "4500",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "arise",
+    "Type": "LONG",
+    "Min": 16.75,
+    "Max": 31.3,
+    "Closing": 31.1,
+    "Description": "Utilities",
+    "ICB": "7500",
+    "Quantity": 56
+  },
+  {
+    "Symbol": "arjo-b",
+    "Type": "LONG",
+    "Min": 28.0,
+    "Max": 46.52,
+    "Closing": 46.52,
+    "Description": "Health Care",
+    "ICB": "4500",
+    "Quantity": 22
+  },
+  {
+    "Symbol": "atco-b",
+    "Type": "LONG",
+    "Min": 200.05,
+    "Max": 336.9,
+    "Closing": 329.3,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Quantity": 5
+  },
+  {
+    "Symbol": "awrd",
+    "Type": "LONG",
+    "Min": 59.4,
+    "Max": 103.5,
+    "Closing": 94.8,
+    "Description": "Technology",
+    "ICB": "9500",
+    "Quantity": 15
+  },
+  {
+    "Symbol": "bacti-b",
+    "Type": "LONG",
+    "Min": 35.5,
+    "Max": 87.0,
+    "Closing": 79.0,
+    "Description": "Health Care",
+    "ICB": "4500",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "balco",
+    "Type": "LONG",
+    "Min": 51.0,
+    "Max": 97.6,
+    "Closing": 96.0,
+    "Description": "Construction & Materials",
+    "ICB": "2300",
+    "Quantity": 11
+  },
+  {
+    "Symbol": "bald-b",
+    "Type": "LONG",
+    "Min": 259.0,
+    "Max": 443.8,
+    "Closing": 443.8,
+    "Description": "Real Estate",
+    "ICB": "8600",
+    "Quantity": 3
+  },
+  {
+    "Symbol": "bhg",
+    "Type": "LONG",
+    "Min": 33.0,
+    "Max": 59.7,
+    "Closing": 59.5,
+    "Description": "Retail",
+    "ICB": "5300",
+    "Quantity": 18
+  },
+  {
+    "Symbol": "binero",
+    "Type": "LONG",
+    "Min": 5.95,
+    "Max": 17.7,
+    "Closing": 13.5,
+    "Description": "Technology",
+    "ICB": "9500",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "bonex",
+    "Type": "LONG",
+    "Min": 19.06,
+    "Max": 34.9,
+    "Closing": 31.8,
+    "Description": "Health Care",
+    "ICB": "4500",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "bts-b",
+    "Type": "LONG",
+    "Min": 132.5,
+    "Max": 243.0,
+    "Closing": 243.0,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Quantity": 7
+  },
+  {
+    "Symbol": "bufab",
+    "Type": "LONG",
+    "Min": 86.9,
+    "Max": 134.4,
+    "Closing": 131.6,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "bure",
+    "Type": "LONG",
+    "Min": 106.2,
+    "Max": 224.0,
+    "Closing": 221.0,
+    "Description": "Financial Services",
+    "ICB": "8700",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "byggp",
+    "Type": "LONG",
+    "Min": 31.1,
+    "Max": 50.8,
+    "Closing": 50.2,
+    "Description": "Construction & Materials",
+    "ICB": "2300",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "cevi",
+    "Type": "LONG",
+    "Min": 199.0,
+    "Max": 396.0,
+    "Closing": 333.5,
+    "Description": "Health Care",
+    "ICB": "4500",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "clem",
+    "Type": "LONG",
+    "Min": 0.301,
+    "Max": 0.785,
+    "Closing": 0.715,
+    "Description": "Chemicals",
+    "ICB": "1300",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "clnk-b",
+    "Type": "LONG",
+    "Min": 205.0,
+    "Max": 354.0,
+    "Closing": 350.0,
+    "Description": "Health Care",
+    "ICB": "4500",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "cons-b",
+    "Type": "LONG",
+    "Min": 40.8,
+    "Max": 117.0,
+    "Closing": 112.0,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "core-a",
+    "Type": "LONG",
+    "Min": 10.202,
+    "Max": 27.1,
+    "Closing": 26.4,
+    "Description": "Real Estate",
+    "ICB": "8600",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "dom",
+    "Type": "LONG",
+    "Min": 54.6,
+    "Max": 99.1,
+    "Closing": 95.5,
+    "Description": "Personal & Household Goods",
+    "ICB": "3700",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "enea",
+    "Type": "LONG",
+    "Min": 110.0,
+    "Max": 196.0,
+    "Closing": 183.5,
+    "Description": "Technology",
+    "ICB": "9500",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "enzy",
+    "Type": "LONG",
+    "Min": 2.01,
+    "Max": 5.06,
+    "Closing": 3.72,
+    "Description": "Health Care",
+    "ICB": "4500",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "eolu-b",
+    "Type": "LONG",
+    "Min": 46.5,
+    "Max": 121.0,
+    "Closing": 105.0,
+    "Description": "Oil & Gas",
+    "ICB": "0500",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "epi-b",
+    "Type": "LONG",
+    "Min": 77.51,
+    "Max": 115.0,
+    "Closing": 112.75,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Quantity": 16
+  },
+  {
+    "Symbol": "fastat",
+    "Type": "LONG",
+    "Min": 40.0,
+    "Max": 84.8,
+    "Closing": 84.8,
+    "Description": "Real Estate",
+    "ICB": "8600",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "fing-b",
+    "Type": "LONG",
+    "Min": 10.54,
+    "Max": 22.43,
+    "Closing": 19.15,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "garo",
+    "Type": "LONG",
+    "Min": 170.6,
+    "Max": 367.0,
+    "Closing": 315.5,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "geti-b",
+    "Type": "LONG",
+    "Min": 77.86,
+    "Max": 176.05,
+    "Closing": 174.15,
+    "Description": "Health Care",
+    "ICB": "4500",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "gpx",
+    "Type": "LONG",
+    "Min": 7.66,
+    "Max": 16.75,
+    "Closing": 16.75,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "holm-b",
+    "Type": "LONG",
+    "Min": 175.72,
+    "Max": 296.8,
+    "Closing": 285.2,
+    "Description": "Basic Resources",
+    "ICB": "1700",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "indt",
+    "Type": "LONG",
+    "Min": 215.8,
+    "Max": 339.2,
+    "Closing": 338.2,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Quantity": 5
+  },
+  {
+    "Symbol": "ivso",
+    "Type": "LONG",
+    "Min": 53.5,
+    "Max": 118.2,
+    "Closing": 118.2,
+    "Description": "Technology",
+    "ICB": "9500",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "kled",
+    "Type": "LONG",
+    "Min": 63.35,
+    "Max": 99.4,
+    "Closing": 99.3,
+    "Description": "Real Estate",
+    "ICB": "8600",
+    "Quantity": 10
+  },
+  {
+    "Symbol": "lagr-b",
+    "Type": "LONG",
+    "Min": 84.3,
+    "Max": 150.0,
+    "Closing": 150.0,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "lamm-b",
+    "Type": "LONG",
+    "Min": 40.2,
+    "Max": 65.8,
+    "Closing": 64.0,
+    "Description": "Personal & Household Goods",
+    "ICB": "3700",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "liab",
+    "Type": "LONG",
+    "Min": 65.8,
+    "Max": 122.0,
+    "Closing": 120.0,
+    "Description": "Construction & Materials",
+    "ICB": "2300",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "lifco-b",
+    "Type": "LONG",
+    "Min": 338.5,
+    "Max": 581.5,
+    "Closing": 580.0,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Quantity": 3
+  },
+  {
+    "Symbol": "lime",
+    "Type": "LONG",
+    "Min": 76.2,
+    "Max": 150.6,
+    "Closing": 149.0,
+    "Description": "Technology",
+    "ICB": "9500",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "lund-b",
+    "Type": "LONG",
+    "Min": 264.8,
+    "Max": 419.4,
+    "Closing": 419.2,
+    "Description": "Financial Services",
+    "ICB": "8700",
+    "Quantity": 3
+  },
+  {
+    "Symbol": "lyko-a",
+    "Type": "LONG",
+    "Min": 52.0,
+    "Max": 92.4,
+    "Closing": 92.4,
+    "Description": "Retail",
+    "ICB": "5300",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "maha-a",
+    "Type": "LONG",
+    "Min": 13.76,
+    "Max": 33.0,
+    "Closing": 25.25,
+    "Description": "Oil & Gas",
+    "ICB": "0500",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "mang",
+    "Type": "LONG",
+    "Min": 605.0,
+    "Max": 1050.0,
+    "Closing": 1030.0,
+    "Description": "Financial Services",
+    "ICB": "8700",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "mcap",
+    "Type": "LONG",
+    "Min": 75.4,
+    "Max": 144.8,
+    "Closing": 142.8,
+    "Description": "Health Care",
+    "ICB": "4500",
+    "Quantity": 11
+  },
+  {
+    "Symbol": "minest",
+    "Type": "LONG",
+    "Min": 8.089,
+    "Max": 23.908,
+    "Closing": 15.2,
+    "Description": "Oil & Gas",
+    "ICB": "0500",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "mycr",
+    "Type": "LONG",
+    "Min": 112.8,
+    "Max": 191.0,
+    "Closing": 186.6,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "nibe-b",
+    "Type": "LONG",
+    "Min": 92.38,
+    "Max": 167.4,
+    "Closing": 165.55,
+    "Description": "Construction & Materials",
+    "ICB": "2300",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "nola-b",
+    "Type": "LONG",
+    "Min": 367.5,
+    "Max": 580.0,
+    "Closing": 572.5,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "np3",
+    "Type": "LONG",
+    "Min": 61.9,
+    "Max": 114.6,
+    "Closing": 114.2,
+    "Description": "Real Estate",
+    "ICB": "8600",
+    "Quantity": 10
+  },
+  {
+    "Symbol": "opus",
+    "Type": "LONG",
+    "Min": 4.93,
+    "Max": 8.4,
+    "Closing": 8.38,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "plaz-b",
+    "Type": "LONG",
+    "Min": 58.9,
+    "Max": 115.8,
+    "Closing": 115.8,
+    "Description": "Real Estate",
+    "ICB": "8600",
+    "Quantity": 10
+  },
+  {
+    "Symbol": "pndx-b",
+    "Type": "LONG",
+    "Min": 147.4,
+    "Max": 218.0,
+    "Closing": 216.5,
+    "Description": "Real Estate",
+    "ICB": "8600",
+    "Quantity": 5
+  },
+  {
+    "Symbol": "prco-b",
+    "Type": "LONG",
+    "Min": 25.4,
+    "Max": 60.0,
+    "Closing": 52.0,
+    "Description": "Technology",
+    "ICB": "9500",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "realfi",
+    "Type": "LONG",
+    "Min": 6.55,
+    "Max": 18.0,
+    "Closing": 11.45,
+    "Description": "Media",
+    "ICB": "5500",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "rejl-b",
+    "Type": "LONG",
+    "Min": 66.4,
+    "Max": 119.5,
+    "Closing": 115.0,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "sbb-b",
+    "Type": "LONG",
+    "Min": 10.717,
+    "Max": 25.0,
+    "Closing": 21.9,
+    "Description": "Real Estate",
+    "ICB": "8600",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "sdip-b",
+    "Type": "LONG",
+    "Min": 39.7,
+    "Max": 76.0,
+    "Closing": 74.4,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "sect-b",
+    "Type": "LONG",
+    "Min": 188.44,
+    "Max": 404.5,
+    "Closing": 387.5,
+    "Description": "Health Care",
+    "ICB": "4500",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "sftr",
+    "Type": "LONG",
+    "Min": 4.68,
+    "Max": 11.0,
+    "Closing": 10.1,
+    "Description": "Technology",
+    "ICB": "9500",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "ska-b",
+    "Type": "LONG",
+    "Min": 144.6,
+    "Max": 216.2,
+    "Closing": 212.7,
+    "Description": "Construction & Materials",
+    "ICB": "2300",
+    "Quantity": 7
+  },
+  {
+    "Symbol": "stef-b",
+    "Type": "LONG",
+    "Min": 100.0,
+    "Max": 171.0,
+    "Closing": 170.0,
+    "Description": "Real Estate",
+    "ICB": "8600",
+    "Quantity": 5
+  },
+  {
+    "Symbol": "stil",
+    "Type": "LONG",
+    "Min": 65.0,
+    "Max": 133.0,
+    "Closing": 133.0,
+    "Description": "Health Care",
+    "ICB": "4500",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "story-b",
+    "Type": "LONG",
+    "Min": 91.5,
+    "Max": 155.4,
+    "Closing": 155.4,
+    "Description": "Retail",
+    "ICB": "5300",
+    "Quantity": 0
+  },
+  {
+    "Symbol": "swec-b",
+    "Type": "LONG",
+    "Min": 183.6,
+    "Max": 368.0,
+    "Closing": 366.6,
+    "Description": "Construction & Materials",
+    "ICB": "2300",
+    "Quantity": 3
+  },
+  {
+    "Symbol": "sysr",
+    "Type": "LONG",
+    "Min": 93.9,
+    "Max": 183.5,
+    "Closing": 182.0,
+    "Description": "Construction & Materials",
+    "ICB": "2300",
+    "Quantity": 7
+  },
+  {
+    "Symbol": "trian-b",
+    "Type": "LONG",
+    "Min": 62.8,
+    "Max": 110.0,
+    "Closing": 110.0,
+    "Description": "Real Estate",
+    "ICB": "8600",
+    "Quantity": 10
+  },
+  {
+    "Symbol": "wihl",
+    "Type": "LONG",
+    "Min": 104.06,
+    "Max": 176.1,
+    "Closing": 175.3,
+    "Description": "Real Estate",
+    "ICB": "8600",
+    "Quantity": 6
+  },
+  {
+    "Symbol": "vit-b",
+    "Type": "LONG",
+    "Min": 77.6,
+    "Max": 190.5,
+    "Closing": 190.5,
+    "Description": "Technology",
+    "ICB": "9500",
+    "Quantity": 7
+  }
+]
