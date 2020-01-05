@@ -13,41 +13,17 @@
         outline: solid 1px red;
     }
 
-    .symbol {
+    .data {
         position: absolute;
-        font-size: 12px;
-        top: 3px;
-        left: 3px;
+        font-size: 11px;
+        line-height: 150%;
+        background: #fff;
+        padding: 3px 10px 0px 3px;
     }
 
-    .min {
-        position: absolute;
-        top: 20px;
-        left: 3px;
-        white-space:pre;
-    }
-
-    .max {
-        position: absolute;
-        top: 35px;
-        left: 3px;
-        white-space:pre;
-    }
-
-    .closing {
-        position: absolute;
-        top: 50px;
-        left: 3px;
-        white-space:pre;
-    }
-    .value {
-        position: absolute;
-        top: 65px;
-        left: 3px;
-        color:blue;
-        font-weight: bold;
-        white-space:pre;
-    }
+        .data span {
+            white-space: pre;
+        }
 
     .description {
         position: absolute;
@@ -61,12 +37,24 @@
         height: 100%;
     }
 </style>
-<button ng-click="$ctrl.fill = !$ctrl.fill">Fill</button>
-<button ng-click="$ctrl.owned = !$ctrl.owned">Owned</button>
-<button ng-click="$ctrl.closing = !$ctrl.closing">Closing</button>
-<button ng-click="$ctrl.fishnet = !$ctrl.fishnet">Fishnet</button>
-<button ng-click="$ctrl.bollinger_bands = !$ctrl.bollinger_bands">Bollinger Bands</button>
-<button ng-click="$ctrl.transactions = !$ctrl.transactions">Transactions</button>
+<input type="checkbox" id="fill" ng-model="$ctrl.fill" /><label for="fill">Fill</label>
+<br />
+<input type="checkbox" id="owned" ng-model="$ctrl.owned" /><label for="owned">Owned</label>
+<br />
+<input type="checkbox" id="transactions" ng-model="$ctrl.transactions" /><label for="transactions">Transactions</label>
+<br />
+<input type="checkbox" id="closing" ng-model="$ctrl.closing" /><label for="closing">Closing</label>
+<br />
+<br />
+<input type="checkbox" id="fishnet" ng-model="$ctrl.fishnet" /><label for="fishnet">Fishnet</label>
+<br />
+<input type="checkbox" id="bollinger_bands" ng-model="$ctrl.bollinger_bands" /><label for="bollinger_bands">Bollinger Bands</label>
+<br />
+<input type="checkbox" id="straight" ng-model="$ctrl.straight" /><label for="straight">Straight</label>
+<br />
+<input type="checkbox" id="percentage_lines" ng-model="$ctrl.percentage_lines" /><label for="percentage_lines">Percentage Lines</label>
+<br />
+
 <button ng-click="$ctrl.showICB = !$ctrl.showICB">ISB</button>
 <table ng-if="$ctrl.showICB">
     <tr>
@@ -104,21 +92,24 @@
 <br />
 <div ng-repeat="row in $ctrl.data" style="float: left; padding: 5px;" ng-click="row.selected = !row.selected" ng-if="$ctrl.icb[row.ICB]">
     <div class="container" ng-class="{outline: row.selected}">
-        <img ng-if="row.Quantity > 0 && $ctrl.fill" src="{{ 'data/img/' + row.Symbol + '_fill.png' }}" />
-
-        <img src="{{ 'data/img/' + row.Symbol + '.png' }}" />
-
-        <img ng-if="row.Quantity > 0 && $ctrl.owned" src="{{ 'data/img/' + row.Symbol + '_owned.png' }}" />
-        <img ng-if="row.Quantity > 0 && $ctrl.transactions" src="{{ 'data/img/' + row.Symbol + '_transactions.png' }}" />
+        <img ng-if="row.Images.Fill && $ctrl.fill" src="{{ 'data/img/' + row.Symbol + '_fill.png' }}" />
+        <img src="{{ 'data/img/' + row.Symbol + '_chart.png' }}" />
+        <img ng-if="row.Images.Owned && $ctrl.owned" src="{{ 'data/img/' + row.Symbol + '_owned.png' }}" />
+        <img ng-if="$ctrl.straight" src="{{ 'data/img/' + row.Symbol + '_straight.png' }}" />
+        <img ng-if="$ctrl.percentage_lines" src="{{ 'data/img/' + row.Symbol + '_percentage_lines.png' }}" />
+        <img ng-if="row.Images.Transactions && $ctrl.transactions" src="{{ 'data/img/' + row.Symbol + '_transactions.png' }}" />
         <img ng-if="$ctrl.fishnet" src="{{ 'data/img/' + row.Symbol + '_fishnet.png' }}" />
         <img ng-if="$ctrl.closing" src="{{ 'data/img/' + row.Symbol + '_closing.png' }}" />
         <img ng-if="$ctrl.bollinger_bands" src="{{ 'data/img/' + row.Symbol + '_bollinger_bands.png' }}" />
 
-        <span class="symbol">{{row.Symbol.toUpperCase()}}</span>
-        <span class="min">Min:     {{row.Min.toFixed(2).padStart(7)}} kr</span>
-        <span class="max">Max:     {{row.Max.toFixed(2).padStart(7)}} kr</span>
-        <span class="closing">Closing: {{row.Closing.toFixed(2).padStart(7)}} kr</span>
-        <span ng-if="row.Quantity" class="value">Value:   {{(row.Quantity * row.Closing).toFixed(2).padStart(7)}} kr</span>
+        <div class="data">
+            <span style="font-size:12px">{{row.Symbol.toUpperCase()}}</span><br />
+            <span>Min:     {{row.Min.toFixed(2).padStart(7)}} kr</span><br />
+            <span>Max:     {{row.Max.toFixed(2).padStart(7)}} kr</span><br />
+            <span>Closing: {{row.Closing.toFixed(2).padStart(7)}} kr</span><br />
+            <span ng-if="row.Quantity" style="color: blue;"><b>Value:   {{(row.Quantity * row.Closing).toFixed(2).padStart(7)}} kr</b></span>
+        </div>
         <span class="description">{{row.Description}}</span>
+        <span class="percentage_lines">0 %</span>
     </div>
 </div>

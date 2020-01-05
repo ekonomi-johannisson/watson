@@ -7,7 +7,12 @@
     "Closing": 420.0,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "addt-b",
@@ -17,7 +22,12 @@
     "Closing": 303.0,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "addv-b",
@@ -27,7 +37,12 @@
     "Closing": 0.74,
     "Description": "Health Care",
     "ICB": "4500",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "alif-b",
@@ -37,7 +52,12 @@
     "Closing": 301.0,
     "Description": "Health Care",
     "ICB": "4500",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "allg-b",
@@ -47,7 +67,12 @@
     "Closing": 11.1,
     "Description": "Technology",
     "ICB": "9500",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "alm",
@@ -57,7 +82,12 @@
     "Closing": 310.0,
     "Description": "Real Estate",
     "ICB": "8600",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "amast",
@@ -67,7 +97,12 @@
     "Closing": 8.6,
     "Description": "Real Estate",
     "ICB": "8600",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "anod-b",
@@ -77,7 +112,12 @@
     "Closing": 187.0,
     "Description": "Technology",
     "ICB": "9500",
-    "Quantity": 6
+    "Quantity": 6,
+    "Images": {
+      "Fill": true,
+      "Owned": true,
+      "Transactions": true
+    }
   },
   {
     "Symbol": "aq",
@@ -87,7 +127,12 @@
     "Closing": 230.5,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
-    "Quantity": 2
+    "Quantity": 2,
+    "Images": {
+      "Fill": true,
+      "Owned": false,
+      "Transactions": true
+    }
   },
   {
     "Symbol": "arcoma",
@@ -97,7 +142,12 @@
     "Closing": 21.0,
     "Description": "Health Care",
     "ICB": "4500",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "arise",
@@ -107,7 +157,12 @@
     "Closing": 31.1,
     "Description": "Utilities",
     "ICB": "7500",
-    "Quantity": 56
+    "Quantity": 56,
+    "Images": {
+      "Fill": true,
+      "Owned": true,
+      "Transactions": true
+    }
   },
   {
     "Symbol": "arjo-b",
@@ -117,7 +172,12 @@
     "Closing": 46.52,
     "Description": "Health Care",
     "ICB": "4500",
-    "Quantity": 22
+    "Quantity": 22,
+    "Images": {
+      "Fill": true,
+      "Owned": true,
+      "Transactions": true
+    }
   },
   {
     "Symbol": "atco-b",
@@ -127,7 +187,12 @@
     "Closing": 329.3,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
-    "Quantity": 5
+    "Quantity": 5,
+    "Images": {
+      "Fill": true,
+      "Owned": true,
+      "Transactions": true
+    }
   },
   {
     "Symbol": "awrd",
@@ -137,7 +202,12 @@
     "Closing": 94.8,
     "Description": "Technology",
     "ICB": "9500",
-    "Quantity": 15
+    "Quantity": 15,
+    "Images": {
+      "Fill": true,
+      "Owned": true,
+      "Transactions": true
+    }
   },
   {
     "Symbol": "bacti-b",
@@ -147,7 +217,12 @@
     "Closing": 79.0,
     "Description": "Health Care",
     "ICB": "4500",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "balco",
@@ -157,7 +232,12 @@
     "Closing": 96.0,
     "Description": "Construction & Materials",
     "ICB": "2300",
-    "Quantity": 11
+    "Quantity": 11,
+    "Images": {
+      "Fill": true,
+      "Owned": true,
+      "Transactions": true
+    }
   },
   {
     "Symbol": "bald-b",
@@ -167,7 +247,12 @@
     "Closing": 443.8,
     "Description": "Real Estate",
     "ICB": "8600",
-    "Quantity": 3
+    "Quantity": 3,
+    "Images": {
+      "Fill": true,
+      "Owned": true,
+      "Transactions": true
+    }
   },
   {
     "Symbol": "bhg",
@@ -177,7 +262,12 @@
     "Closing": 59.5,
     "Description": "Retail",
     "ICB": "5300",
-    "Quantity": 18
+    "Quantity": 18,
+    "Images": {
+      "Fill": true,
+      "Owned": true,
+      "Transactions": true
+    }
   },
   {
     "Symbol": "binero",
@@ -187,7 +277,12 @@
     "Closing": 13.5,
     "Description": "Technology",
     "ICB": "9500",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "bonex",
@@ -197,7 +292,12 @@
     "Closing": 31.8,
     "Description": "Health Care",
     "ICB": "4500",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "bts-b",
@@ -207,7 +307,12 @@
     "Closing": 243.0,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
-    "Quantity": 7
+    "Quantity": 7,
+    "Images": {
+      "Fill": true,
+      "Owned": true,
+      "Transactions": true
+    }
   },
   {
     "Symbol": "bufab",
@@ -217,7 +322,12 @@
     "Closing": 131.6,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "bure",
@@ -227,7 +337,12 @@
     "Closing": 221.0,
     "Description": "Financial Services",
     "ICB": "8700",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "byggp",
@@ -237,7 +352,12 @@
     "Closing": 50.2,
     "Description": "Construction & Materials",
     "ICB": "2300",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "cevi",
@@ -247,7 +367,12 @@
     "Closing": 333.5,
     "Description": "Health Care",
     "ICB": "4500",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "clem",
@@ -257,7 +382,12 @@
     "Closing": 0.715,
     "Description": "Chemicals",
     "ICB": "1300",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "clnk-b",
@@ -267,7 +397,12 @@
     "Closing": 350.0,
     "Description": "Health Care",
     "ICB": "4500",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "cons-b",
@@ -277,7 +412,12 @@
     "Closing": 112.0,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "core-a",
@@ -287,7 +427,12 @@
     "Closing": 26.4,
     "Description": "Real Estate",
     "ICB": "8600",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "dom",
@@ -297,7 +442,12 @@
     "Closing": 95.5,
     "Description": "Personal & Household Goods",
     "ICB": "3700",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "enea",
@@ -307,7 +457,12 @@
     "Closing": 183.5,
     "Description": "Technology",
     "ICB": "9500",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "enzy",
@@ -317,7 +472,12 @@
     "Closing": 3.72,
     "Description": "Health Care",
     "ICB": "4500",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "eolu-b",
@@ -327,7 +487,12 @@
     "Closing": 105.0,
     "Description": "Oil & Gas",
     "ICB": "0500",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "epi-b",
@@ -337,7 +502,12 @@
     "Closing": 112.75,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
-    "Quantity": 16
+    "Quantity": 16,
+    "Images": {
+      "Fill": true,
+      "Owned": true,
+      "Transactions": true
+    }
   },
   {
     "Symbol": "fastat",
@@ -347,7 +517,12 @@
     "Closing": 84.8,
     "Description": "Real Estate",
     "ICB": "8600",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "fing-b",
@@ -357,7 +532,12 @@
     "Closing": 19.15,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "garo",
@@ -367,7 +547,12 @@
     "Closing": 315.5,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "geti-b",
@@ -377,7 +562,12 @@
     "Closing": 174.15,
     "Description": "Health Care",
     "ICB": "4500",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "gpx",
@@ -387,7 +577,12 @@
     "Closing": 16.75,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "holm-b",
@@ -397,7 +592,12 @@
     "Closing": 285.2,
     "Description": "Basic Resources",
     "ICB": "1700",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "indt",
@@ -407,7 +607,12 @@
     "Closing": 338.2,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
-    "Quantity": 5
+    "Quantity": 5,
+    "Images": {
+      "Fill": true,
+      "Owned": true,
+      "Transactions": true
+    }
   },
   {
     "Symbol": "ivso",
@@ -417,7 +622,12 @@
     "Closing": 118.2,
     "Description": "Technology",
     "ICB": "9500",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "kled",
@@ -427,7 +637,12 @@
     "Closing": 99.3,
     "Description": "Real Estate",
     "ICB": "8600",
-    "Quantity": 10
+    "Quantity": 10,
+    "Images": {
+      "Fill": true,
+      "Owned": true,
+      "Transactions": true
+    }
   },
   {
     "Symbol": "lagr-b",
@@ -437,7 +652,12 @@
     "Closing": 150.0,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "lamm-b",
@@ -447,7 +667,12 @@
     "Closing": 64.0,
     "Description": "Personal & Household Goods",
     "ICB": "3700",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": true,
+      "Transactions": true
+    }
   },
   {
     "Symbol": "liab",
@@ -457,7 +682,12 @@
     "Closing": 120.0,
     "Description": "Construction & Materials",
     "ICB": "2300",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "lifco-b",
@@ -467,7 +697,12 @@
     "Closing": 580.0,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
-    "Quantity": 3
+    "Quantity": 3,
+    "Images": {
+      "Fill": true,
+      "Owned": true,
+      "Transactions": true
+    }
   },
   {
     "Symbol": "lime",
@@ -477,7 +712,12 @@
     "Closing": 149.0,
     "Description": "Technology",
     "ICB": "9500",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "lund-b",
@@ -487,7 +727,12 @@
     "Closing": 419.2,
     "Description": "Financial Services",
     "ICB": "8700",
-    "Quantity": 3
+    "Quantity": 3,
+    "Images": {
+      "Fill": true,
+      "Owned": true,
+      "Transactions": true
+    }
   },
   {
     "Symbol": "lyko-a",
@@ -497,7 +742,12 @@
     "Closing": 92.4,
     "Description": "Retail",
     "ICB": "5300",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "maha-a",
@@ -507,7 +757,12 @@
     "Closing": 25.25,
     "Description": "Oil & Gas",
     "ICB": "0500",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "mang",
@@ -517,7 +772,12 @@
     "Closing": 1030.0,
     "Description": "Financial Services",
     "ICB": "8700",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "mcap",
@@ -527,7 +787,12 @@
     "Closing": 142.8,
     "Description": "Health Care",
     "ICB": "4500",
-    "Quantity": 11
+    "Quantity": 11,
+    "Images": {
+      "Fill": true,
+      "Owned": true,
+      "Transactions": true
+    }
   },
   {
     "Symbol": "minest",
@@ -537,7 +802,12 @@
     "Closing": 15.2,
     "Description": "Oil & Gas",
     "ICB": "0500",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "mycr",
@@ -547,7 +817,12 @@
     "Closing": 186.6,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "nibe-b",
@@ -557,7 +832,12 @@
     "Closing": 165.55,
     "Description": "Construction & Materials",
     "ICB": "2300",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "nola-b",
@@ -567,7 +847,12 @@
     "Closing": 572.5,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "np3",
@@ -577,7 +862,12 @@
     "Closing": 114.2,
     "Description": "Real Estate",
     "ICB": "8600",
-    "Quantity": 10
+    "Quantity": 10,
+    "Images": {
+      "Fill": true,
+      "Owned": true,
+      "Transactions": true
+    }
   },
   {
     "Symbol": "opus",
@@ -587,7 +877,12 @@
     "Closing": 8.38,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "plaz-b",
@@ -597,7 +892,12 @@
     "Closing": 115.8,
     "Description": "Real Estate",
     "ICB": "8600",
-    "Quantity": 10
+    "Quantity": 10,
+    "Images": {
+      "Fill": true,
+      "Owned": true,
+      "Transactions": true
+    }
   },
   {
     "Symbol": "pndx-b",
@@ -607,7 +907,12 @@
     "Closing": 216.5,
     "Description": "Real Estate",
     "ICB": "8600",
-    "Quantity": 5
+    "Quantity": 5,
+    "Images": {
+      "Fill": true,
+      "Owned": true,
+      "Transactions": true
+    }
   },
   {
     "Symbol": "prco-b",
@@ -617,7 +922,12 @@
     "Closing": 52.0,
     "Description": "Technology",
     "ICB": "9500",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "realfi",
@@ -627,7 +937,12 @@
     "Closing": 11.45,
     "Description": "Media",
     "ICB": "5500",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "rejl-b",
@@ -637,7 +952,12 @@
     "Closing": 115.0,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "sbb-b",
@@ -647,7 +967,12 @@
     "Closing": 21.9,
     "Description": "Real Estate",
     "ICB": "8600",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "sdip-b",
@@ -657,7 +982,12 @@
     "Closing": 74.4,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "sect-b",
@@ -667,7 +997,12 @@
     "Closing": 387.5,
     "Description": "Health Care",
     "ICB": "4500",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "sftr",
@@ -677,7 +1012,27 @@
     "Closing": 10.1,
     "Description": "Technology",
     "ICB": "9500",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "sint",
+    "Type": "LONG",
+    "Min": 78.4,
+    "Max": 201.0,
+    "Closing": 192.0,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "ska-b",
@@ -687,7 +1042,12 @@
     "Closing": 212.7,
     "Description": "Construction & Materials",
     "ICB": "2300",
-    "Quantity": 7
+    "Quantity": 7,
+    "Images": {
+      "Fill": true,
+      "Owned": true,
+      "Transactions": true
+    }
   },
   {
     "Symbol": "stef-b",
@@ -697,7 +1057,12 @@
     "Closing": 170.0,
     "Description": "Real Estate",
     "ICB": "8600",
-    "Quantity": 5
+    "Quantity": 5,
+    "Images": {
+      "Fill": true,
+      "Owned": false,
+      "Transactions": true
+    }
   },
   {
     "Symbol": "stil",
@@ -707,7 +1072,12 @@
     "Closing": 133.0,
     "Description": "Health Care",
     "ICB": "4500",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "story-b",
@@ -717,7 +1087,12 @@
     "Closing": 155.4,
     "Description": "Retail",
     "ICB": "5300",
-    "Quantity": 0
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
   },
   {
     "Symbol": "swec-b",
@@ -727,7 +1102,12 @@
     "Closing": 366.6,
     "Description": "Construction & Materials",
     "ICB": "2300",
-    "Quantity": 3
+    "Quantity": 3,
+    "Images": {
+      "Fill": true,
+      "Owned": true,
+      "Transactions": true
+    }
   },
   {
     "Symbol": "sysr",
@@ -737,7 +1117,12 @@
     "Closing": 182.0,
     "Description": "Construction & Materials",
     "ICB": "2300",
-    "Quantity": 7
+    "Quantity": 7,
+    "Images": {
+      "Fill": true,
+      "Owned": true,
+      "Transactions": true
+    }
   },
   {
     "Symbol": "trian-b",
@@ -747,7 +1132,12 @@
     "Closing": 110.0,
     "Description": "Real Estate",
     "ICB": "8600",
-    "Quantity": 10
+    "Quantity": 10,
+    "Images": {
+      "Fill": true,
+      "Owned": true,
+      "Transactions": true
+    }
   },
   {
     "Symbol": "wihl",
@@ -757,7 +1147,12 @@
     "Closing": 175.3,
     "Description": "Real Estate",
     "ICB": "8600",
-    "Quantity": 6
+    "Quantity": 6,
+    "Images": {
+      "Fill": true,
+      "Owned": true,
+      "Transactions": true
+    }
   },
   {
     "Symbol": "vit-b",
@@ -767,6 +1162,11 @@
     "Closing": 190.5,
     "Description": "Technology",
     "ICB": "9500",
-    "Quantity": 7
+    "Quantity": 7,
+    "Images": {
+      "Fill": true,
+      "Owned": true,
+      "Transactions": true
+    }
   }
 ]
