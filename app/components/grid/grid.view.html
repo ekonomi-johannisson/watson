@@ -1,4 +1,12 @@
 ﻿<style>
+    table {
+        font-family: monospace;
+        font-size: 12px;
+    }
+    pre {
+        display: inline;
+    }
+
     .container {
         position: relative;
         font-family: monospace;
@@ -17,7 +25,7 @@
         position: absolute;
         font-size: 11px;
         line-height: 140%;
-        background: #fff;
+        background: rgba(255,255,255, 0.8);
         padding: 3px 10px 0px 3px;
     }
 
@@ -35,6 +43,16 @@
         position: absolute;
         width: 100%;
         height: 100%;
+    }
+
+    .header {
+        text-transform: uppercase;
+        font-family: monospace;
+        font-weight: bold;
+    }
+
+    label {
+        font-family: monospace;
     }
 </style>
 <div style="float:left; width: 300px;">
@@ -58,6 +76,10 @@
     <br />
     <input type="checkbox" id="percentage_lines" ng-model="$ctrl.percentage_lines" /><label for="percentage_lines">Percentage Lines</label>
 </div>
+<div style="float:left; width: 300px;">
+    <div class="header">Filter</div>
+    <input type="checkbox" id="filter_owned" ng-model="$ctrl.filterOwned" /><label for="filter_owned">Owned</label>
+</div>
     <button ng-click="$ctrl.showICB = !$ctrl.showICB">ISB</button>
 <div style="clear: both"></div>
     <table ng-if="$ctrl.showICB">
@@ -67,19 +89,25 @@
 
                 <span ng-repeat="i in [].constructor(20) track by $index">
                     <input type="checkbox" ng-model="$ctrl.icb[$index].active" />
-                    {{$ctrl.icb[$index].description}}
-                    ({{$ctrl.count($ctrl.icb[$index].code)}})
+                    <pre>{{$ctrl.icb[$index].description.padEnd(27)}}</pre>
+                    <pre>{{($ctrl.count($ctrl.icb[$index].code) + '').padStart(10)}}</pre>
+                    <span ng-if="$ctrl.countInvested($ctrl.icb[$index].code)">
+                        <pre>{{($ctrl.countInvested($ctrl.icb[$index].code) + '').padStart(5)}}</pre>
+                    </span>
                     <span ng-if="$ctrl.invested($ctrl.icb[$index].code)">
-                        ({{$ctrl.invested($ctrl.icb[$index].code).toFixed(2)}})
+                        <pre>{{$ctrl.invested($ctrl.icb[$index].code).toFixed(2).padStart(10)}}</pre>
                     </span>
                     <br />
+
+
+
                 </span>
             </td>
         </tr>
     </table>
     <br />
     <br />
-    <div ng-repeat="row in $ctrl.data" style="float: left; padding: 5px;" ng-click="row.selected = !row.selected" ng-if="$ctrl.active(row.ICB)">
+    <div ng-repeat="row in $ctrl.data" style="float: left; padding: 5px;" ng-click="row.selected = !row.selected" ng-if="$ctrl.active(row.ICB, row.Quantity)">
         <div class="container" ng-class="{outline: row.selected}">
             <img ng-if="row.Images.Fill && $ctrl.fill" src="{{ 'data/img/' + row.Symbol + '_fill.png' }}" />
             <img src="{{ 'data/img/' + row.Symbol + '_chart.png' }}" />
@@ -91,15 +119,93 @@
             <img ng-if="$ctrl.fishnet" src="{{ 'data/img/' + row.Symbol + '_fishnet.png' }}" />
             <img ng-if="$ctrl.closing" src="{{ 'data/img/' + row.Symbol + '_closing.png' }}" />
             <img ng-if="$ctrl.bollinger_bands" src="{{ 'data/img/' + row.Symbol + '_bollinger_bands.png' }}" />
+            <img ng-if="$ctrl.high_low" src="{{ 'data/img/' + row.Symbol + '_high_low.png' }}" />
 
             <div class="data">
                 <span style="font-size:12px">{{row.Symbol.toUpperCase()}}</span><br />
                 <span>Min:     {{row.Min.toFixed(2).padStart(7)}} kr</span><br />
                 <span>Max:     {{row.Max.toFixed(2).padStart(7)}} kr</span><br />
                 <span>Closing: {{row.Closing.toFixed(2).padStart(7)}} kr</span><br />
+                <span ng-if="row.Quantity" style="color: blue;"><b>Quantity:   {{(row.Quantity + '').padStart(4)}} st</b></span><br />
                 <span ng-if="row.Quantity" style="color: blue;"><b>Value:   {{(row.Quantity * row.Closing).toFixed(2).padStart(7)}} kr</b></span>
             </div>
             <span class="description">{{row.Description}}</span>
-            <span class="percentage_lines">0 %</span>
+
+
+
+
+            <style>
+                .percentage_line_0 {
+                    color: black;
+                    position: absolute;
+                    right: 5px;
+                    bottom: 25px;
+                    font-family: Arial;
+                }
+
+                .percentage_line_20 {
+                    color: black;
+                    position: absolute;
+                    right: 5px;
+                    bottom: 47px;
+                    font-family: Arial;
+                }
+
+                .percentage_line_40 {
+                    color: black;
+                    position: absolute;
+                    right: 5px;
+                    bottom: 69px;
+                    font-family: Arial;
+                }
+
+                .percentage_line_60 {
+                    color: black;
+                    position: absolute;
+                    right: 5px;
+                    bottom: 91px;
+                    font-family: Arial;
+                }
+
+                .percentage_line_80 {
+                    color: black;
+                    position: absolute;
+                    right: 5px;
+                    bottom: 113px;
+                    font-family: Arial;
+                }
+
+                .percentage_line_100 {
+                    color: black;
+                    position: absolute;
+                    right: 5px;
+                    bottom: 135px;
+                    font-family: Arial;
+                }
+
+                .percentage_line_120 {
+                    color: black;
+                    position: absolute;
+                    right: 5px;
+                    bottom: 157px;
+                    font-family: Arial;
+                }
+
+                .percentage_line_140 {
+                    color: black;
+                    position: absolute;
+                    right: 5px;
+                    bottom: 179px;
+                    font-family: Arial;
+                }
+            </style>
+            <span ng-if="$ctrl.percentage_lines" class="percentage_line_0">0 %</span>
+            <span ng-if="$ctrl.percentage_lines" class="percentage_line_20">20 %</span>
+            <span ng-if="$ctrl.percentage_lines" class="percentage_line_40">40 %</span>
+            <span ng-if="$ctrl.percentage_lines" class="percentage_line_60">60 %</span>
+            <span ng-if="$ctrl.percentage_lines" class="percentage_line_80">80 %</span>
+            <span ng-if="$ctrl.percentage_lines" class="percentage_line_100">100 %</span>
+            <span ng-if="$ctrl.percentage_lines" class="percentage_line_120">120 %</span>
+            <span ng-if="$ctrl.percentage_lines" class="percentage_line_140">140 %</span>
         </div>
     </div>
