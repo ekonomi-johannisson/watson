@@ -697,7 +697,7 @@
     "Closing": 592.0,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
-    "Quantity": 3,
+    "Quantity": 4,
     "Images": {
       "Fill": true,
       "Owned": true,
@@ -937,11 +937,11 @@
     "Closing": 112.5,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
-    "Quantity": 0,
+    "Quantity": 5,
     "Images": {
-      "Fill": false,
+      "Fill": true,
       "Owned": false,
-      "Transactions": false
+      "Transactions": true
     }
   },
   {
@@ -967,11 +967,11 @@
     "Closing": 78.8,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
-    "Quantity": 0,
+    "Quantity": 7,
     "Images": {
-      "Fill": false,
+      "Fill": true,
       "Owned": false,
-      "Transactions": false
+      "Transactions": true
     }
   },
   {
@@ -997,11 +997,11 @@
     "Closing": 393.0,
     "Description": "Health Care",
     "ICB": "4500",
-    "Quantity": 0,
+    "Quantity": 1,
     "Images": {
-      "Fill": false,
+      "Fill": true,
       "Owned": false,
-      "Transactions": false
+      "Transactions": true
     }
   },
   {
