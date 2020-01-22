@@ -125,7 +125,7 @@
             <img ng-if="$ctrl.bollinger_bands" src="{{ 'data/img/' + row.Symbol + '_weeks.png' }}" />
 
             <div class="data">
-                <span style="font-size:12px">{{row.Symbol.toUpperCase()}}<img src="/assets/{{row.Country}}.png" style="width:19px; height: 13px; padding-left: 10px"/></span><br /><br />
+                <span style="font-size:12px">{{row.Symbol.toUpperCase()}}<img src="assets/{{row.Country}}.png" style="width:19px; height: 13px; padding-left: 10px"/></span><br /><br />
                 <span>Min:     {{row.Min.toFixed(2).padStart(7)}} kr</span><br />
                 <span>Max:     {{row.Max.toFixed(2).padStart(7)}} kr</span><br />
                 <span>Closing: {{row.Closing.toFixed(2).padStart(7)}} kr</span><br />
