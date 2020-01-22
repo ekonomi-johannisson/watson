@@ -4,9 +4,10 @@
     "Type": "LONG",
     "Min": 234.0,
     "Max": 580.0,
-    "Closing": 425.0,
+    "Closing": 428.0,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
+    "Country": "SE",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -15,13 +16,30 @@
     }
   },
   {
-    "Symbol": "addt-b",
+    "Symbol": "admcm",
     "Type": "LONG",
-    "Min": 167.4,
-    "Max": 315.5,
-    "Closing": 315.5,
-    "Description": "Industrial Goods & Services",
-    "ICB": "2700",
+    "Min": 24.99,
+    "Max": 78.8,
+    "Closing": 78.2,
+    "Description": "Technology",
+    "ICB": "9500",
+    "Country": "FI",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "agf-b",
+    "Type": "LONG",
+    "Min": 0.252,
+    "Max": 0.492,
+    "Closing": 0.491,
+    "Description": "Travel & Leisure",
+    "ICB": "5700",
+    "Country": "DK",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -34,9 +52,10 @@
     "Type": "LONG",
     "Min": 159.0,
     "Max": 310.0,
-    "Closing": 308.0,
+    "Closing": 298.0,
     "Description": "Real Estate",
     "ICB": "8600",
+    "Country": "SE",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -47,11 +66,12 @@
   {
     "Symbol": "amast",
     "Type": "LONG",
-    "Min": 4.26,
-    "Max": 8.78,
-    "Closing": 8.52,
+    "Min": 4.28,
+    "Max": 9.5,
+    "Closing": 9.5,
     "Description": "Real Estate",
     "ICB": "8600",
+    "Country": "SE",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -63,10 +83,11 @@
     "Symbol": "anod-b",
     "Type": "LONG",
     "Min": 109.0,
-    "Max": 190.0,
-    "Closing": 190.0,
+    "Max": 203.0,
+    "Closing": 203.0,
     "Description": "Technology",
     "ICB": "9500",
+    "Country": "SE",
     "Quantity": 9,
     "Images": {
       "Fill": true,
@@ -79,9 +100,10 @@
     "Type": "LONG",
     "Min": 149.0,
     "Max": 234.0,
-    "Closing": 229.5,
+    "Closing": 224.5,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
+    "Country": "SE",
     "Quantity": 2,
     "Images": {
       "Fill": true,
@@ -94,9 +116,10 @@
     "Type": "LONG",
     "Min": 16.75,
     "Max": 34.4,
-    "Closing": 31.9,
+    "Closing": 33.0,
     "Description": "Utilities",
     "ICB": "7500",
+    "Country": "SE",
     "Quantity": 56,
     "Images": {
       "Fill": true,
@@ -107,11 +130,12 @@
   {
     "Symbol": "arjo-b",
     "Type": "LONG",
-    "Min": 29.65,
+    "Min": 30.05,
     "Max": 49.06,
-    "Closing": 46.9,
+    "Closing": 47.38,
     "Description": "Health Care",
     "ICB": "4500",
+    "Country": "SE",
     "Quantity": 22,
     "Images": {
       "Fill": true,
@@ -124,14 +148,31 @@
     "Type": "LONG",
     "Min": 206.5,
     "Max": 346.2,
-    "Closing": 346.2,
+    "Closing": 339.5,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
+    "Country": "SE",
     "Quantity": 5,
     "Images": {
       "Fill": true,
       "Owned": true,
       "Transactions": true
+    }
+  },
+  {
+    "Symbol": "atg1v",
+    "Type": "LONG",
+    "Min": 22.5,
+    "Max": 37.3,
+    "Closing": 37.3,
+    "Description": "Financial Services",
+    "ICB": "8700",
+    "Country": "FI",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
     }
   },
   {
@@ -142,6 +183,7 @@
     "Closing": 100.0,
     "Description": "Technology",
     "ICB": "9500",
+    "Country": "SE",
     "Quantity": 15,
     "Images": {
       "Fill": true,
@@ -154,9 +196,10 @@
     "Type": "LONG",
     "Min": 35.5,
     "Max": 87.0,
-    "Closing": 83.6,
+    "Closing": 80.4,
     "Description": "Health Care",
     "ICB": "4500",
+    "Country": "SE",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -169,9 +212,10 @@
     "Type": "LONG",
     "Min": 51.0,
     "Max": 97.6,
-    "Closing": 97.0,
+    "Closing": 96.8,
     "Description": "Construction & Materials",
     "ICB": "2300",
+    "Country": "SE",
     "Quantity": 17,
     "Images": {
       "Fill": true,
@@ -182,11 +226,12 @@
   {
     "Symbol": "bald-b",
     "Type": "LONG",
-    "Min": 268.2,
+    "Min": 269.6,
     "Max": 460.2,
-    "Closing": 453.0,
+    "Closing": 449.0,
     "Description": "Real Estate",
     "ICB": "8600",
+    "Country": "SE",
     "Quantity": 3,
     "Images": {
       "Fill": true,
@@ -195,14 +240,31 @@
     }
   },
   {
+    "Symbol": "bele",
+    "Type": "LONG",
+    "Min": 39.1,
+    "Max": 70.2,
+    "Closing": 68.6,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
     "Symbol": "bhg",
     "Type": "LONG",
-    "Min": 35.0,
-    "Max": 64.4,
-    "Closing": 64.4,
+    "Min": 35.4,
+    "Max": 64.7,
+    "Closing": 63.6,
     "Description": "Retail",
     "ICB": "5300",
-    "Quantity": 18,
+    "Country": "SE",
+    "Quantity": 27,
     "Images": {
       "Fill": true,
       "Owned": true,
@@ -214,9 +276,10 @@
     "Type": "LONG",
     "Min": 5.95,
     "Max": 17.7,
-    "Closing": 13.5,
+    "Closing": 13.6,
     "Description": "Technology",
     "ICB": "9500",
+    "Country": "SE",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -229,9 +292,58 @@
     "Type": "LONG",
     "Min": 7.151,
     "Max": 20.563,
-    "Closing": 13.85,
+    "Closing": 14.0,
     "Description": "Health Care",
     "ICB": "4500",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "biovic-b",
+    "Type": "LONG",
+    "Min": 8.32,
+    "Max": 16.4,
+    "Closing": 16.15,
+    "Description": "Health Care",
+    "ICB": "4500",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "bonex",
+    "Type": "LONG",
+    "Min": 19.06,
+    "Max": 40.1,
+    "Closing": 39.8,
+    "Description": "Health Care",
+    "ICB": "4500",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "bono",
+    "Type": "LONG",
+    "Min": 98.0,
+    "Max": 216.0,
+    "Closing": 216.0,
+    "Description": "",
+    "ICB": "",
+    "Country": "NO",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -244,9 +356,10 @@
     "Type": "LONG",
     "Min": 133.0,
     "Max": 258.0,
-    "Closing": 258.0,
+    "Closing": 248.0,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
+    "Country": "SE",
     "Quantity": 7,
     "Images": {
       "Fill": true,
@@ -257,11 +370,12 @@
   {
     "Symbol": "bure",
     "Type": "LONG",
-    "Min": 107.6,
+    "Min": 108.2,
     "Max": 224.0,
-    "Closing": 219.5,
+    "Closing": 222.0,
     "Description": "Financial Services",
     "ICB": "8700",
+    "Country": "SE",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -272,11 +386,44 @@
   {
     "Symbol": "byggp",
     "Type": "LONG",
-    "Min": 34.0,
-    "Max": 55.8,
-    "Closing": 55.6,
+    "Min": 34.2,
+    "Max": 56.8,
+    "Closing": 55.4,
     "Description": "Construction & Materials",
     "ICB": "2300",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "cevi",
+    "Type": "LONG",
+    "Min": 227.2,
+    "Max": 396.0,
+    "Closing": 363.5,
+    "Description": "Health Care",
+    "ICB": "4500",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "chemm",
+    "Type": "LONG",
+    "Min": 124.5,
+    "Max": 258.5,
+    "Closing": 244.0,
+    "Description": "Health Care",
+    "ICB": "4500",
+    "Country": "DK",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -287,11 +434,12 @@
   {
     "Symbol": "clem",
     "Type": "LONG",
-    "Min": 0.397,
-    "Max": 0.785,
-    "Closing": 0.77,
+    "Min": 0.4,
+    "Max": 0.8,
+    "Closing": 0.8,
     "Description": "Chemicals",
     "ICB": "1300",
+    "Country": "SE",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -303,10 +451,11 @@
     "Symbol": "clnk-b",
     "Type": "LONG",
     "Min": 53.25,
-    "Max": 99.5,
-    "Closing": 98.0,
+    "Max": 115.0,
+    "Closing": 115.0,
     "Description": "Health Care",
     "ICB": "4500",
+    "Country": "SE",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -319,9 +468,58 @@
     "Type": "LONG",
     "Min": 40.8,
     "Max": 117.0,
-    "Closing": 111.5,
+    "Closing": 110.0,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "core-a",
+    "Type": "LONG",
+    "Min": 10.31,
+    "Max": 31.0,
+    "Closing": 30.5,
+    "Description": "Real Estate",
+    "ICB": "8600",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "core-b",
+    "Type": "LONG",
+    "Min": 10.72,
+    "Max": 28.6,
+    "Closing": 28.3,
+    "Description": "Real Estate",
+    "ICB": "8600",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "cpmbvew313",
+    "Type": "LONG",
+    "Min": 0.75,
+    "Max": 1.52,
+    "Closing": 1.52,
+    "Description": "Financial Services",
+    "ICB": "8700",
+    "Country": "FI",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -333,10 +531,59 @@
     "Symbol": "crad-b",
     "Type": "LONG",
     "Min": 24.8,
-    "Max": 50.6,
-    "Closing": 50.6,
+    "Max": 50.7,
+    "Closing": 48.4,
     "Description": "Health Care",
     "ICB": "4500",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "dato",
+    "Type": "LONG",
+    "Min": 26.927,
+    "Max": 47.9,
+    "Closing": 47.9,
+    "Description": "",
+    "ICB": "",
+    "Country": "NO",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "digia",
+    "Type": "LONG",
+    "Min": 2.54,
+    "Max": 4.8,
+    "Closing": 4.6,
+    "Description": "Technology",
+    "ICB": "9500",
+    "Country": "FI",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "elos-b",
+    "Type": "LONG",
+    "Min": 66.0,
+    "Max": 112.0,
+    "Closing": 109.5,
+    "Description": "Health Care",
+    "ICB": "4500",
+    "Country": "SE",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -348,10 +595,11 @@
     "Symbol": "enzy",
     "Type": "LONG",
     "Min": 2.01,
-    "Max": 5.06,
-    "Closing": 3.83,
+    "Max": 5.42,
+    "Closing": 5.42,
     "Description": "Health Care",
     "ICB": "4500",
+    "Country": "SE",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -363,10 +611,11 @@
     "Symbol": "epi-b",
     "Type": "LONG",
     "Min": 77.95,
-    "Max": 116.2,
-    "Closing": 115.2,
+    "Max": 118.45,
+    "Closing": 118.45,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
+    "Country": "SE",
     "Quantity": 16,
     "Images": {
       "Fill": true,
@@ -375,13 +624,62 @@
     }
   },
   {
-    "Symbol": "fastat",
+    "Symbol": "eqv1v",
     "Type": "LONG",
-    "Min": 41.2,
-    "Max": 103.0,
-    "Closing": 100.0,
-    "Description": "Real Estate",
-    "ICB": "8600",
+    "Min": 8.14,
+    "Max": 12.95,
+    "Closing": 12.7,
+    "Description": "Financial Services",
+    "ICB": "8700",
+    "Country": "FI",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "evo",
+    "Type": "LONG",
+    "Min": 108.4,
+    "Max": 318.0,
+    "Closing": 318.0,
+    "Description": "Travel & Leisure",
+    "ICB": "5700",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "exl1v",
+    "Type": "LONG",
+    "Min": 3.97,
+    "Max": 6.72,
+    "Closing": 6.64,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Country": "FI",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "gabr",
+    "Type": "LONG",
+    "Min": 582.0,
+    "Max": 930.0,
+    "Closing": 930.0,
+    "Description": "Personal & Household Goods",
+    "ICB": "3700",
+    "Country": "DK",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -392,11 +690,12 @@
   {
     "Symbol": "garo",
     "Type": "LONG",
-    "Min": 176.0,
+    "Min": 176.4,
     "Max": 367.0,
-    "Closing": 341.0,
+    "Closing": 346.0,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
+    "Country": "SE",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -407,11 +706,12 @@
   {
     "Symbol": "geti-b",
     "Type": "LONG",
-    "Min": 81.9,
-    "Max": 179.9,
-    "Closing": 178.15,
+    "Min": 82.22,
+    "Max": 181.85,
+    "Closing": 180.45,
     "Description": "Health Care",
     "ICB": "4500",
+    "Country": "SE",
     "Quantity": 5,
     "Images": {
       "Fill": true,
@@ -422,11 +722,28 @@
   {
     "Symbol": "gpx",
     "Type": "LONG",
-    "Min": 8.0,
-    "Max": 17.9,
-    "Closing": 17.8,
+    "Min": 8.1,
+    "Max": 18.2,
+    "Closing": 18.2,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "harvia",
+    "Type": "LONG",
+    "Min": 5.9,
+    "Max": 10.6,
+    "Closing": 9.96,
+    "Description": "Personal & Household Goods",
+    "ICB": "3700",
+    "Country": "FI",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -437,11 +754,12 @@
   {
     "Symbol": "hemf",
     "Type": "LONG",
-    "Min": 73.4,
+    "Min": 75.5,
     "Max": 127.9,
-    "Closing": 127.9,
+    "Closing": 125.7,
     "Description": "Real Estate",
     "ICB": "8600",
+    "Country": "SE",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -450,13 +768,94 @@
     }
   },
   {
-    "Symbol": "holm-a",
+    "Symbol": "hoiva",
     "Type": "LONG",
-    "Min": 186.02,
-    "Max": 302.0,
-    "Closing": 287.0,
-    "Description": "Basic Resources",
-    "ICB": "1700",
+    "Min": 7.93,
+    "Max": 16.25,
+    "Closing": 16.0,
+    "Description": "Real Estate",
+    "ICB": "8600",
+    "Country": "FI",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "honbs",
+    "Type": "LONG",
+    "Min": 2.24,
+    "Max": 4.39,
+    "Closing": 4.31,
+    "Description": "Personal & Household Goods",
+    "ICB": "3700",
+    "Country": "FI",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "hunto",
+    "Type": "LONG",
+    "Min": 3.15,
+    "Max": 5.96,
+    "Closing": 5.67,
+    "Description": "",
+    "ICB": "",
+    "Country": "NO",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "ico",
+    "Type": "LONG",
+    "Min": 35.5,
+    "Max": 78.0,
+    "Closing": 71.0,
+    "Description": "Health Care",
+    "ICB": "4500",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "icp1v",
+    "Type": "LONG",
+    "Min": 7.58,
+    "Max": 23.0,
+    "Closing": 17.8,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Country": "FI",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "impc",
+    "Type": "LONG",
+    "Min": 4.98,
+    "Max": 17.45,
+    "Closing": 16.15,
+    "Description": "Chemicals",
+    "ICB": "1300",
+    "Country": "SE",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -468,10 +867,11 @@
     "Symbol": "indt",
     "Type": "LONG",
     "Min": 222.6,
-    "Max": 356.6,
-    "Closing": 356.6,
+    "Max": 365.8,
+    "Closing": 365.8,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
+    "Country": "SE",
     "Quantity": 5,
     "Images": {
       "Fill": true,
@@ -480,13 +880,62 @@
     }
   },
   {
+    "Symbol": "iniss-b",
+    "Type": "LONG",
+    "Min": 50.0,
+    "Max": 145.0,
+    "Closing": 125.0,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
     "Symbol": "itab-b",
     "Type": "LONG",
     "Min": 10.62,
     "Max": 31.85,
-    "Closing": 22.15,
+    "Closing": 20.0,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "ivacc",
+    "Type": "LONG",
+    "Min": 8.9,
+    "Max": 26.4,
+    "Closing": 22.2,
+    "Description": "Health Care",
+    "ICB": "4500",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "kido",
+    "Type": "LONG",
+    "Min": 31.0,
+    "Max": 62.0,
+    "Closing": 62.0,
+    "Description": "",
+    "ICB": "",
+    "Country": "NO",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -497,11 +946,12 @@
   {
     "Symbol": "kled",
     "Type": "LONG",
-    "Min": 65.0,
-    "Max": 101.5,
-    "Closing": 101.5,
+    "Min": 67.85,
+    "Max": 101.6,
+    "Closing": 99.95,
     "Description": "Real Estate",
     "ICB": "8600",
+    "Country": "SE",
     "Quantity": 10,
     "Images": {
       "Fill": true,
@@ -514,9 +964,10 @@
     "Type": "LONG",
     "Min": 41.0,
     "Max": 65.8,
-    "Closing": 63.6,
+    "Closing": 63.0,
     "Description": "Personal & Household Goods",
     "ICB": "3700",
+    "Country": "SE",
     "Quantity": 22,
     "Images": {
       "Fill": true,
@@ -525,13 +976,30 @@
     }
   },
   {
+    "Symbol": "laur",
+    "Type": "LONG",
+    "Min": 0.758,
+    "Max": 1.645,
+    "Closing": 1.24,
+    "Description": "Retail",
+    "ICB": "5300",
+    "Country": "DK",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
     "Symbol": "liab",
     "Type": "LONG",
     "Min": 70.4,
     "Max": 122.0,
-    "Closing": 116.6,
+    "Closing": 114.4,
     "Description": "Construction & Materials",
     "ICB": "2300",
+    "Country": "SE",
     "Quantity": 5,
     "Images": {
       "Fill": true,
@@ -543,10 +1011,11 @@
     "Symbol": "lifco-b",
     "Type": "LONG",
     "Min": 357.5,
-    "Max": 594.0,
-    "Closing": 594.0,
+    "Max": 609.5,
+    "Closing": 609.5,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
+    "Country": "SE",
     "Quantity": 4,
     "Images": {
       "Fill": true,
@@ -557,11 +1026,12 @@
   {
     "Symbol": "lime",
     "Type": "LONG",
-    "Min": 76.8,
+    "Min": 80.0,
     "Max": 175.0,
-    "Closing": 167.4,
+    "Closing": 171.4,
     "Description": "Technology",
     "ICB": "9500",
+    "Country": "SE",
     "Quantity": 6,
     "Images": {
       "Fill": true,
@@ -570,13 +1040,30 @@
     }
   },
   {
+    "Symbol": "livi",
+    "Type": "LONG",
+    "Min": 4.31,
+    "Max": 14.55,
+    "Closing": 8.98,
+    "Description": "Health Care",
+    "ICB": "4500",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
     "Symbol": "lund-b",
     "Type": "LONG",
-    "Min": 275.8,
-    "Max": 427.0,
-    "Closing": 427.0,
+    "Min": 279.0,
+    "Max": 429.6,
+    "Closing": 429.0,
     "Description": "Financial Services",
     "ICB": "8700",
+    "Country": "SE",
     "Quantity": 4,
     "Images": {
       "Fill": true,
@@ -588,10 +1075,27 @@
     "Symbol": "lyko-a",
     "Type": "LONG",
     "Min": 52.0,
-    "Max": 99.4,
-    "Closing": 99.4,
+    "Max": 103.0,
+    "Closing": 103.0,
     "Description": "Retail",
     "ICB": "5300",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "maha-to-2-a",
+    "Type": "LONG",
+    "Min": 8.4,
+    "Max": 24.09,
+    "Closing": 14.05,
+    "Description": "Oil & Gas",
+    "ICB": "0500",
+    "Country": "SE",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -603,10 +1107,11 @@
     "Symbol": "mang",
     "Type": "LONG",
     "Min": 605.0,
-    "Max": 1080.0,
-    "Closing": 1080.0,
+    "Max": 1100.0,
+    "Closing": 1100.0,
     "Description": "Financial Services",
     "ICB": "8700",
+    "Country": "SE",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -618,10 +1123,11 @@
     "Symbol": "mcap",
     "Type": "LONG",
     "Min": 75.4,
-    "Max": 158.2,
-    "Closing": 158.2,
+    "Max": 164.2,
+    "Closing": 163.0,
     "Description": "Health Care",
     "ICB": "4500",
+    "Country": "SE",
     "Quantity": 11,
     "Images": {
       "Fill": true,
@@ -630,13 +1136,94 @@
     }
   },
   {
-    "Symbol": "mycr",
+    "Symbol": "minest",
     "Type": "LONG",
-    "Min": 112.8,
-    "Max": 197.5,
-    "Closing": 194.1,
+    "Min": 8.567,
+    "Max": 23.908,
+    "Closing": 14.56,
+    "Description": "Oil & Gas",
+    "ICB": "0500",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "mmo1v",
+    "Type": "LONG",
+    "Min": 22.5,
+    "Max": 40.4,
+    "Closing": 39.0,
+    "Description": "Personal & Household Goods",
+    "ICB": "3700",
+    "Country": "FI",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "neo1v",
+    "Type": "LONG",
+    "Min": 1.755,
+    "Max": 3.75,
+    "Closing": 3.43,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
+    "Country": "FI",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "nkt",
+    "Type": "LONG",
+    "Min": 82.55,
+    "Max": 170.9,
+    "Closing": 152.2,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Country": "DK",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "nman",
+    "Type": "LONG",
+    "Min": 94.81,
+    "Max": 156.2,
+    "Closing": 145.8,
+    "Description": "Construction & Materials",
+    "ICB": "2300",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "nodo",
+    "Type": "LONG",
+    "Min": 28.4,
+    "Max": 57.0,
+    "Closing": 56.0,
+    "Description": "",
+    "ICB": "",
+    "Country": "NO",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -648,10 +1235,11 @@
     "Symbol": "note",
     "Type": "LONG",
     "Min": 21.0,
-    "Max": 41.1,
-    "Closing": 37.65,
+    "Max": 45.0,
+    "Closing": 43.5,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
+    "Country": "SE",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -663,10 +1251,11 @@
     "Symbol": "np3",
     "Type": "LONG",
     "Min": 61.9,
-    "Max": 126.6,
-    "Closing": 126.6,
+    "Max": 127.6,
+    "Closing": 123.0,
     "Description": "Real Estate",
     "ICB": "8600",
+    "Country": "SE",
     "Quantity": 10,
     "Images": {
       "Fill": true,
@@ -679,9 +1268,26 @@
     "Type": "LONG",
     "Min": 4.93,
     "Max": 8.5,
-    "Closing": 8.5,
+    "Closing": 8.49,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "orti-b",
+    "Type": "LONG",
+    "Min": 1.593,
+    "Max": 5.02,
+    "Closing": 4.41,
+    "Description": "Health Care",
+    "ICB": "4500",
+    "Country": "SE",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -694,9 +1300,58 @@
     "Type": "LONG",
     "Min": 28.775,
     "Max": 79.8,
-    "Closing": 60.2,
+    "Closing": 64.0,
     "Description": "Telecommunications",
     "ICB": "6500",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "papi",
+    "Type": "LONG",
+    "Min": 0.041,
+    "Max": 0.1,
+    "Closing": 0.1,
+    "Description": "Technology",
+    "ICB": "9500",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "pax",
+    "Type": "LONG",
+    "Min": 22.6,
+    "Max": 71.0,
+    "Closing": 54.0,
+    "Description": "Health Care",
+    "ICB": "4500",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "phoo",
+    "Type": "LONG",
+    "Min": 40.7,
+    "Max": 98.9,
+    "Closing": 79.9,
+    "Description": "",
+    "ICB": "",
+    "Country": "NO",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -707,12 +1362,13 @@
   {
     "Symbol": "plaz-b",
     "Type": "LONG",
-    "Min": 63.0,
+    "Min": 67.7,
     "Max": 119.2,
-    "Closing": 117.0,
+    "Closing": 112.4,
     "Description": "Real Estate",
     "ICB": "8600",
-    "Quantity": 10,
+    "Country": "SE",
+    "Quantity": 15,
     "Images": {
       "Fill": true,
       "Owned": true,
@@ -722,11 +1378,12 @@
   {
     "Symbol": "pndx-b",
     "Type": "LONG",
-    "Min": 150.6,
-    "Max": 220.5,
-    "Closing": 220.5,
+    "Min": 154.0,
+    "Max": 223.0,
+    "Closing": 217.5,
     "Description": "Real Estate",
     "ICB": "8600",
+    "Country": "SE",
     "Quantity": 7,
     "Images": {
       "Fill": true,
@@ -735,13 +1392,30 @@
     }
   },
   {
+    "Symbol": "polo",
+    "Type": "LONG",
+    "Min": 22.8,
+    "Max": 43.0,
+    "Closing": 43.0,
+    "Description": "",
+    "ICB": "",
+    "Country": "NO",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
     "Symbol": "prco-b",
     "Type": "LONG",
     "Min": 26.6,
     "Max": 60.0,
-    "Closing": 48.9,
+    "Closing": 50.6,
     "Description": "Technology",
     "ICB": "9500",
+    "Country": "SE",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -753,25 +1427,75 @@
     "Symbol": "prev-b",
     "Type": "LONG",
     "Min": 16.25,
-    "Max": 38.0,
-    "Closing": 37.1,
+    "Max": 38.1,
+    "Closing": 38.1,
     "Description": "Technology",
     "ICB": "9500",
+    "Country": "SE",
     "Quantity": 13,
     "Images": {
       "Fill": true,
-      "Owned": false,
+      "Owned": true,
       "Transactions": true
+    }
+  },
+  {
+    "Symbol": "pric-b",
+    "Type": "LONG",
+    "Min": 10.22,
+    "Max": 24.0,
+    "Closing": 22.4,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "rail",
+    "Type": "LONG",
+    "Min": 11.8,
+    "Max": 30.0,
+    "Closing": 24.5,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "realfi",
+    "Type": "LONG",
+    "Min": 6.911,
+    "Max": 18.0,
+    "Closing": 12.2,
+    "Description": "Media",
+    "ICB": "5500",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
     }
   },
   {
     "Symbol": "rejl-b",
     "Type": "LONG",
     "Min": 66.4,
-    "Max": 120.5,
-    "Closing": 120.5,
+    "Max": 130.0,
+    "Closing": 130.0,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
+    "Country": "SE",
     "Quantity": 5,
     "Images": {
       "Fill": true,
@@ -783,10 +1507,59 @@
     "Symbol": "saga-a",
     "Type": "LONG",
     "Min": 79.25,
-    "Max": 154.0,
-    "Closing": 151.0,
+    "Max": 155.0,
+    "Closing": 150.0,
     "Description": "Real Estate",
     "ICB": "8600",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "salt-to6-b",
+    "Type": "LONG",
+    "Min": 0.52,
+    "Max": 2.04,
+    "Closing": 1.15,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "sboo",
+    "Type": "LONG",
+    "Min": 41.6,
+    "Max": 76.0,
+    "Closing": 76.0,
+    "Description": "",
+    "ICB": "",
+    "Country": "NO",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "scape",
+    "Type": "LONG",
+    "Min": 8.7,
+    "Max": 25.5,
+    "Closing": 15.92,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Country": "DK",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -802,6 +1575,7 @@
     "Closing": 80.0,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
+    "Country": "SE",
     "Quantity": 7,
     "Images": {
       "Fill": true,
@@ -813,10 +1587,11 @@
     "Symbol": "secare",
     "Type": "LONG",
     "Min": 49.1,
-    "Max": 104.0,
-    "Closing": 99.8,
+    "Max": 105.5,
+    "Closing": 104.0,
     "Description": "Food & Beverage",
     "ICB": "3500",
+    "Country": "SE",
     "Quantity": 6,
     "Images": {
       "Fill": true,
@@ -827,11 +1602,12 @@
   {
     "Symbol": "sect-b",
     "Type": "LONG",
-    "Min": 209.0,
-    "Max": 406.0,
-    "Closing": 395.0,
+    "Min": 212.15,
+    "Max": 409.5,
+    "Closing": 409.5,
     "Description": "Health Care",
     "ICB": "4500",
+    "Country": "SE",
     "Quantity": 1,
     "Images": {
       "Fill": true,
@@ -844,9 +1620,26 @@
     "Type": "LONG",
     "Min": 5.88,
     "Max": 19.0,
-    "Closing": 18.0,
+    "Closing": 17.0,
     "Description": "Health Care",
     "ICB": "4500",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "sf",
+    "Type": "LONG",
+    "Min": 139.0,
+    "Max": 438.5,
+    "Closing": 438.5,
+    "Description": "Personal & Household Goods",
+    "ICB": "3700",
+    "Country": "SE",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -857,11 +1650,28 @@
   {
     "Symbol": "sftr",
     "Type": "LONG",
-    "Min": 4.89,
+    "Min": 4.9,
     "Max": 11.0,
     "Closing": 10.0,
     "Description": "Technology",
     "ICB": "9500",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "sim",
+    "Type": "LONG",
+    "Min": 503.5,
+    "Max": 800.0,
+    "Closing": 800.0,
+    "Description": "Technology",
+    "ICB": "9500",
+    "Country": "DK",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -872,11 +1682,12 @@
   {
     "Symbol": "sint",
     "Type": "LONG",
-    "Min": 81.6,
-    "Max": 215.0,
-    "Closing": 210.0,
+    "Min": 83.2,
+    "Max": 216.0,
+    "Closing": 216.0,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
+    "Country": "SE",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -889,9 +1700,10 @@
     "Type": "LONG",
     "Min": 150.4,
     "Max": 229.8,
-    "Closing": 229.8,
+    "Closing": 225.3,
     "Description": "Construction & Materials",
     "ICB": "2300",
+    "Country": "SE",
     "Quantity": 7,
     "Images": {
       "Fill": true,
@@ -900,13 +1712,46 @@
     }
   },
   {
+    "Symbol": "ssgo",
+    "Type": "LONG",
+    "Min": 14.0,
+    "Max": 27.6,
+    "Closing": 25.3,
+    "Description": "",
+    "ICB": "",
+    "Country": "NO",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "ssoo",
+    "Type": "LONG",
+    "Min": 76.85,
+    "Max": 133.2,
+    "Closing": 133.0,
+    "Description": "",
+    "ICB": "",
+    "Country": "NO",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
     "Symbol": "stef-b",
     "Type": "LONG",
-    "Min": 100.5,
-    "Max": 175.0,
-    "Closing": 175.0,
+    "Min": 101.0,
+    "Max": 175.5,
+    "Closing": 174.0,
     "Description": "Real Estate",
     "ICB": "8600",
+    "Country": "SE",
     "Quantity": 5,
     "Images": {
       "Fill": true,
@@ -919,9 +1764,10 @@
     "Type": "LONG",
     "Min": 65.0,
     "Max": 148.0,
-    "Closing": 145.5,
+    "Closing": 131.0,
     "Description": "Health Care",
     "ICB": "4500",
+    "Country": "SE",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -932,11 +1778,12 @@
   {
     "Symbol": "story-b",
     "Type": "LONG",
-    "Min": 96.4,
+    "Min": 97.4,
     "Max": 187.0,
-    "Closing": 187.0,
+    "Closing": 177.2,
     "Description": "Retail",
     "ICB": "5300",
+    "Country": "SE",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -949,9 +1796,26 @@
     "Type": "LONG",
     "Min": 1.78,
     "Max": 4.42,
-    "Closing": 3.8,
+    "Closing": 4.05,
     "Description": "Personal & Household Goods",
     "ICB": "3700",
+    "Country": "SE",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "stwk",
+    "Type": "LONG",
+    "Min": 17.01,
+    "Max": 41.0,
+    "Closing": 41.0,
+    "Description": "Technology",
+    "ICB": "9500",
+    "Country": "SE",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -963,10 +1827,11 @@
     "Symbol": "swec-b",
     "Type": "LONG",
     "Min": 183.6,
-    "Max": 375.2,
-    "Closing": 371.4,
+    "Max": 384.2,
+    "Closing": 383.0,
     "Description": "Construction & Materials",
     "ICB": "2300",
+    "Country": "SE",
     "Quantity": 4,
     "Images": {
       "Fill": true,
@@ -979,9 +1844,10 @@
     "Type": "LONG",
     "Min": 93.9,
     "Max": 189.5,
-    "Closing": 179.5,
+    "Closing": 181.0,
     "Description": "Construction & Materials",
     "ICB": "2300",
+    "Country": "SE",
     "Quantity": 7,
     "Images": {
       "Fill": true,
@@ -992,12 +1858,29 @@
   {
     "Symbol": "tfbank",
     "Type": "LONG",
-    "Min": 73.2,
+    "Min": 73.4,
     "Max": 128.0,
-    "Closing": 126.5,
+    "Closing": 122.0,
     "Description": "Banks",
     "ICB": "8300",
-    "Quantity": 4,
+    "Country": "SE",
+    "Quantity": 8,
+    "Images": {
+      "Fill": true,
+      "Owned": true,
+      "Transactions": true
+    }
+  },
+  {
+    "Symbol": "tnom",
+    "Type": "LONG",
+    "Min": 20.3,
+    "Max": 46.9,
+    "Closing": 46.9,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Country": "FI",
+    "Quantity": 3,
     "Images": {
       "Fill": true,
       "Owned": false,
@@ -1005,13 +1888,30 @@
     }
   },
   {
+    "Symbol": "tokman",
+    "Type": "LONG",
+    "Min": 7.37,
+    "Max": 13.8,
+    "Closing": 13.64,
+    "Description": "Retail",
+    "ICB": "5300",
+    "Country": "FI",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
     "Symbol": "trian-b",
     "Type": "LONG",
     "Min": 63.2,
-    "Max": 115.0,
-    "Closing": 114.0,
+    "Max": 116.0,
+    "Closing": 115.0,
     "Description": "Real Estate",
     "ICB": "8600",
+    "Country": "SE",
     "Quantity": 10,
     "Images": {
       "Fill": true,
@@ -1020,13 +1920,62 @@
     }
   },
   {
-    "Symbol": "tsec",
+    "Symbol": "ttalo",
     "Type": "LONG",
-    "Min": 18.0,
-    "Max": 31.0,
-    "Closing": 29.4,
+    "Min": 8.02,
+    "Max": 12.5,
+    "Closing": 12.44,
+    "Description": "Health Care",
+    "ICB": "4500",
+    "Country": "FI",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "vaias",
+    "Type": "LONG",
+    "Min": 16.75,
+    "Max": 34.3,
+    "Closing": 33.3,
     "Description": "Industrial Goods & Services",
     "ICB": "2700",
+    "Country": "FI",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "velo",
+    "Type": "LONG",
+    "Min": 1.954,
+    "Max": 7.49,
+    "Closing": 5.97,
+    "Description": "Health Care",
+    "ICB": "4500",
+    "Country": "DK",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "viafin",
+    "Type": "LONG",
+    "Min": 5.92,
+    "Max": 9.38,
+    "Closing": 9.04,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Country": "FI",
     "Quantity": 0,
     "Images": {
       "Fill": false,
@@ -1037,11 +1986,12 @@
   {
     "Symbol": "wihl",
     "Type": "LONG",
-    "Min": 109.3,
-    "Max": 178.0,
-    "Closing": 178.0,
+    "Min": 113.84,
+    "Max": 179.5,
+    "Closing": 174.9,
     "Description": "Real Estate",
     "ICB": "8600",
+    "Country": "SE",
     "Quantity": 6,
     "Images": {
       "Fill": true,
@@ -1053,15 +2003,48 @@
     "Symbol": "vit-b",
     "Type": "LONG",
     "Min": 79.0,
-    "Max": 208.0,
-    "Closing": 202.0,
+    "Max": 210.0,
+    "Closing": 210.0,
     "Description": "Technology",
     "ICB": "9500",
+    "Country": "SE",
     "Quantity": 7,
     "Images": {
       "Fill": true,
       "Owned": true,
       "Transactions": true
+    }
+  },
+  {
+    "Symbol": "yeint",
+    "Type": "LONG",
+    "Min": 7.5,
+    "Max": 12.0,
+    "Closing": 11.3,
+    "Description": "Industrial Goods & Services",
+    "ICB": "2700",
+    "Country": "FI",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
+    }
+  },
+  {
+    "Symbol": "zeal",
+    "Type": "LONG",
+    "Min": 92.6,
+    "Max": 250.2,
+    "Closing": 248.4,
+    "Description": "Health Care",
+    "ICB": "4500",
+    "Country": "DK",
+    "Quantity": 0,
+    "Images": {
+      "Fill": false,
+      "Owned": false,
+      "Transactions": false
     }
   }
 ]

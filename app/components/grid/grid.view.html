@@ -22,6 +22,8 @@
     }
 
     .data {
+        top: 1px;
+        left: 1px;
         position: absolute;
         font-size: 11px;
         line-height: 140%;
@@ -120,9 +122,10 @@
             <img ng-if="$ctrl.closing" src="{{ 'data/img/' + row.Symbol + '_closing.png' }}" />
             <img ng-if="$ctrl.bollinger_bands" src="{{ 'data/img/' + row.Symbol + '_bollinger_bands.png' }}" />
             <img ng-if="$ctrl.high_low" src="{{ 'data/img/' + row.Symbol + '_high_low.png' }}" />
+            <img ng-if="$ctrl.bollinger_bands" src="{{ 'data/img/' + row.Symbol + '_weeks.png' }}" />
 
             <div class="data">
-                <span style="font-size:12px">{{row.Symbol.toUpperCase()}}</span><br />
+                <span style="font-size:12px">{{row.Symbol.toUpperCase()}}<img src="/assets/{{row.Country}}.png" style="width:19px; height: 13px; padding-left: 10px"/></span><br /><br />
                 <span>Min:     {{row.Min.toFixed(2).padStart(7)}} kr</span><br />
                 <span>Max:     {{row.Max.toFixed(2).padStart(7)}} kr</span><br />
                 <span>Closing: {{row.Closing.toFixed(2).padStart(7)}} kr</span><br />
